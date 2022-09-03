@@ -1,0 +1,93 @@
+@import '../../global.scss';
+
+.topbar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    color: $mainColor;
+    position: fixed;
+    top: 0;
+    z-index: 2; //for showing topbar while scrolling
+    transition: all 1s ease;
+
+    .wrapper {
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            display: flex;
+            align-items: center;
+
+            .logo {
+                font-weight: 700;
+                text-decoration: none;
+                color: inherit;
+                margin-right: 40px;
+            }
+
+            .itemContainer {
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+
+                .icon {
+                    font-size: 25px;
+                    margin-right: 15px;
+                }
+
+                span {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .right {
+
+            .hamburger {
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+
+                span {
+                    width: 100%;
+                    height: 3px;
+                    background-color: $mainColor;
+                    transform-origin: left; //by default the hamburger origin of rotation is center so we make it to left to get proper cross
+                    transition: all 2s ease; // animation for 2sec for all the lines
+                }
+            }
+
+
+        }
+
+    }
+
+    &.active { // if topbar active
+        background-color: $mainColor;
+        color: white;
+
+        .hamburger {
+            span {
+                &:first-child { //span's first child
+                    background-color: white;
+                    transform: rotate(45deg); //rotate the 1st line of hamburger to 45 degree
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:last-child{ //span's last child
+                    background-color: white;
+                    transform: rotate(-45deg);
+
+                }
+            }
+        }
+    }
+}
