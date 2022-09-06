@@ -43,29 +43,30 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         <div className="item">
-          <img src="assets/pic1.png" alt="Loading..." />
-          <h3>FunDose Extension</h3>
+          <img src="screenshots/chatapp1.png" alt="Loading..." />
+          <h3>WassUp:Chat App</h3>
         </div>
         <div className="item">
-          <img src="assets/pic1.png" alt="Loading..." />
-          <h3>FunDose Extension</h3>
+          <img src="screenshots/newsmonk.png" alt="Loading..." />
+          <h3>NewsMonk</h3>
         </div>
         <div className="item">
-          <img src="assets/pic1.png" alt="Loading..." />
-          <h3>FunDose Extension</h3>
+          <img src="screenshots/recipe.png" alt="Loading..." />
+          <h3>Recipe App</h3>
         </div>
         <div className="item">
-          <img src="assets/pic1.png" alt="Loading..." />
-          <h3>FunDose Extension</h3>
+          <img src="screenshots/countdown-timer.png" alt="Loading..." />
+          <h3>Countdown-Timer</h3>
         </div>
         <div className="item">
-          <img src="assets/pic1.png" alt="Loading..." />
-          <h3>FunDose Extension</h3>
+          <img src="screenshots/textutils.png" alt="Loading..." />
+          <h3>TextUtils</h3>
         </div>
         <div className="item">
-          <img src="assets/pic1.png" alt="Loading..." />
-          <h3>FunDose Extension</h3>
+          <img src="screenshots/quiz.png" alt="Loading..." />
+          <h3>Quiz App</h3>
         </div>
+        
       </div>
     </div>
   )
