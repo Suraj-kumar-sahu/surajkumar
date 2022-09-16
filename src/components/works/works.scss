@@ -12,6 +12,10 @@ background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, F
     justify-content: center;
     position: relative;
 
+    @include mobile{
+        display: none;
+    }
+
     .arrow{
         height: 50px;
         position: absolute;
