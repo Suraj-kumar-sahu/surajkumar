@@ -2,6 +2,13 @@
 
 .intro{
     background-color: rgb(255, 255, 255);
+   
+    @include mobile{
+        background-image: url("https://images.pexels.com/photos/1996035/pexels-photo-1996035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: 130%;
+        background-repeat: no-repeat;
+
+    }
     display: flex;
     overflow: hidden;
 
@@ -25,9 +32,11 @@
 
         @include mobile{
             // display: none;
+            margin-top: 15px;
             width: 95%;
             flex: 0.5;
-            border-radius: 30% 30% 90% 90%;
+            border-radius: 200px 200px 300px 300px;
+
 
         }
 
@@ -60,7 +69,6 @@
         flex: 0.6;
         position: relative;
         
-
         .wrapper{
             width: 100%;
             height: 100%;
@@ -95,6 +103,10 @@
             span{
                 font-size: inherit;
                 color: rgb(255, 17, 0);
+
+                @include mobile{
+                    // color: #b4b4b4;
+                }
             }
             .ityped-cursor{
                 animation: blink 1s infinite;

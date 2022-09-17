@@ -21,7 +21,7 @@ export default function Topbar({menuOpen,setMenuOpen}) {
           <div className="tray">
             <a href="#intro"> <span>Home</span></a>
             <a href="#about"> <span>About</span></a>
-            <a href="#skils"> <span>Skills</span></a>
+            <a href="#skill"> <span>Skills</span></a>
             <a href="#portfolio"> <span>Portfolio</span></a>
             <a href="#works"> <span>Works</span></a>
             <a href="#contact"> <span>Contact</span></a>
