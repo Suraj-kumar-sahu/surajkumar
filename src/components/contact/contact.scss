@@ -22,7 +22,7 @@
         background-image: url("https://images.pexels.com/photos/532563/pexels-photo-532563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
         
         @include mobile{
-            margin-bottom: 18px;
+            margin-bottom: 25px;
         }
         .videoTag {
             border-radius: 10px;
@@ -116,7 +116,7 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
                 width: 150px;
                 height: 30px;
                 color: white;
-                background-color: rgb(25, 26, 66);
+                background-color: rgb(8, 8, 39);
                 border: none;
                 border-radius: 10px;
                 font-weight: 500;

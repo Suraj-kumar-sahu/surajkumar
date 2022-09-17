@@ -19,8 +19,6 @@ const Skill = () => {
             <img src="assets/thunder.png" alt="" />
             <img src="assets/git.png" alt="" />
             <img src="assets/firebase.png" alt="" />
-
-
         </div>
     </div>
   )
