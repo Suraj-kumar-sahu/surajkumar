@@ -16,7 +16,7 @@ export default function Contact() {
 
         {/* <img src="assets/contact-us.png" alt="" /> */}
         <video className='videoTag' autoPlay loop muted>
-          <source src='https://media.istockphoto.com/videos/contact-us-concept-video-id1366018964' type='video/mp4' />
+          <source src='https://player.vimeo.com/external/461538879.sd.mp4?s=b4a6fd6e7a7fc7bfcc4453672829aa8fe5e84c25&profile_id=164&oauth2_token_id=57447761' type='video/mp4' />
         </video>
             <div className="socialIcons">
               <a href="https://www.linkedin.com/in/suraj-kumar-sahu-1a73401ba" target="blank"><img src="assets/linkedin.png" alt="Loading..." /></a>

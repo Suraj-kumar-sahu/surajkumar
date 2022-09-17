@@ -27,11 +27,7 @@ export default function Intro() {
           <h1>Suraj Kumar Sahu</h1>
           <h3>A <span ref={textRef}></span></h3>
         </div>
-        <div className="resume">
-          <a href="https://drive.google.com/file/d/1YRzbyd6JGW3bvzGYtYKga-VFXYT1ZNjk/view?usp=sharing" target="blank">
-          <button>View Resume</button>
-          </a>
-        </div>
+        
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />
         </a>
