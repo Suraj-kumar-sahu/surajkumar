@@ -48,11 +48,14 @@ export default function Work() {
   } ;
 
   return (
+    <>
+
     <div className='works' id='works'>
       <div className="slider" style={{transform: `translateX( -${currentSlide * 100}vw)` }}> 
       
         {data.map((d) =>(
           <div className="container">
+            
           <div className="item">
             <div className="left">
               <div className="leftContainer">
@@ -74,5 +77,6 @@ export default function Work() {
       <img src="assets/right.png" className='arrow left' onClick={()=> handleClick("left") } alt="l"  />
       <img src="assets/right.png" className='arrow right' onClick={()=>handleClick()} alt="l" />
     </div>
+    </>
   )
 }
